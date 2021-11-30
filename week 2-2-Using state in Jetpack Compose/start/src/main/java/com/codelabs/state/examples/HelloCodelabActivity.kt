@@ -98,7 +98,8 @@ class HelloCodeLabActivityWithViewModel : AppCompatActivity() {
         }
         // [helloViewModel.name] is state that we observe to update the UI
         helloViewModel.name.observe(this) { name ->
-            binding.helloText.text = "Hello, $name"
+            val text = "Hello, $name"
+            binding.helloText.text = text
         }
     }
 }

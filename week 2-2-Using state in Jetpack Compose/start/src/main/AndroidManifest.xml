@@ -42,6 +42,7 @@
         <activity android:name="com.codelabs.state.examples.HelloCodeLabActivityWithViewModel"
             android:exported="true"
             />
+        <activity android:name=".examples.HelloCodelabActivityWithVm" />
     </application>
 
 </manifest>
